@@ -6,3 +6,12 @@ the room. The length and the width will be entered as floating-point numbers. In
 units in your prompt and output message; either feet or meters, depending on which
 unit you are more comfortable working with.
 '''
+
+
+
+
+print(' What is the width of your room')
+w = int(input())
+print(' What is the length of your room')
+l = int(input())
+print(w * l) 
