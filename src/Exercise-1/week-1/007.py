@@ -6,3 +6,9 @@ balance of the savings account. Write a program that begins by reading the amoun
 money deposited into the account from the user. Then your program should compute
 and display the amount in the savings account after 1, 2, and 3 years. Display each
 amount so that it is rounded to 2 decimal places.'''
+print(' Enter the amount of money you want to deposit')
+x = int(input())
+print('How many years do you want this account')
+y = int(input())
+if x>y :
+    print(y*4*x)
