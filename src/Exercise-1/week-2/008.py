@@ -11,3 +11,15 @@ compute and display:
 ##Hint: You will probably find the log10 function in the math module helpful
 for computing the second last item in the list
 '''
+print(' Pick one number')
+x = int(input())
+print ('Pick another number')
+y = int(input())
+import math 
+print(x+y)
+print(y-x)
+print(x*y)
+print(x/y)
+print(x%y)
+print(math.log10(x))
+print(math.log10(y))

@@ -20,3 +20,12 @@ need to convert the user’s input from degrees to radians before computing the
 distance with the formula discussed previously. The math module contains a
 function named radians which converts from degrees to radians.
 '''
+import math
+print('Enter latitude')
+x = int(input())
+print('Enter longitude')
+y = int(input())
+print(math.degrees(math.pi/x))   
+print(math.degrees(math.pi/x))
+print(math.radians(x))
+print(math.radians(y))
