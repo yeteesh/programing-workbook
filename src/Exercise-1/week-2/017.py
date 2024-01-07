@@ -6,3 +6,8 @@ that the acceleration
 
 due to gravity is 9.8 m/s2 . You can use the formula vf = vi2 + 2ad to compute the
 final speed, vf , when the initial speed, vi , acceleration, a, and distance, d, are known.'''
+import math
+print('Enter the height which the object is going to be dropped, the height has to be in meters')
+d = int(input()) 
+vf = 0 + 9.8*d
+print(vf) 

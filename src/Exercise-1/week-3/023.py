@@ -7,3 +7,14 @@ minutes and seconds should all be formatted so that they occupy exactly two digi
 Use your research skills determine what additional character needs to be included in
 the format specifier so that leading zeros are used instead of leading spaces when a
 number is formatted to a particular width.'''
+import time
+print('Enter the amount of seconds:')
+s = int(input())
+print(s/86400)
+print('The first number is seconds into days')
+print(s/3600)
+print('The second number is seconds into hours')
+print(s/60)
+print('The third number is seconds into minutes ')
+print(s/1)
+print('The fourth number is seconds into seconds')

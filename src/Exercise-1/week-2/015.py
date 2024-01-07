@@ -3,3 +3,7 @@
 by one degree Celsius is the material’s specific heat capacity, C. The total amount
 of energy, q, required to raise m grams of a material by ΔT degrees Celsius can be
 computed using the formula:'''
+import math
+print('Enter the amount of water in milliters')
+x = int(input())
+

@@ -9,3 +9,11 @@ described in the previous paragraph. Ensure that your program works correctly fo
 conversions of less than two human years and for conversions of two or more human
 years. Your program should display an appropriate error message if the user enters
 a negative number.'''
+print('How many human years is your dog:')
+d = int(input())
+if d < 2 :
+    print(d*7)
+    print('The number above is your dogs age in dog years')
+if d >= 2:
+    print(10.5+d*4)
+    print('The number above is your dogs age in dog years')
