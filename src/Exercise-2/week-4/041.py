@@ -6,3 +6,7 @@ the table in the previous question then report the name of the corresponding not
 Otherwise report that the frequency does not correspond to a known note. In this
 exercise you only need to consider the notes listed in the table. There is no need to
 consider notes from other octaves.'''
+print('Enter a frequency:')
+f = int(input())
+
+
