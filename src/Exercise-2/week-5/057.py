@@ -8,3 +8,15 @@ should indicate that the next day is 2019-12-01. If the user enters values that 
 date will be entered in numeric form with three separate input statements; one for
 the year, one for the month, and one for the day. Ensure that your program works
 correctly for leap years.'''
+
+print("Enter the Year")
+x = str(input())
+print("Enter the Month")
+y = str(input())
+print("Enter the Day(s)")
+z = int(input())
+a = (z+1)
+print("The day after the given is")
+print(x,y,a)
+
+

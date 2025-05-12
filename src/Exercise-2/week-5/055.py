@@ -8,3 +8,18 @@ Write a program that reads the number of minutes and text messages used in a
 month from the user. Display the base charge, additional minutes charge (if any), additional text message charge (if any), the 911 fee, tax and total bill amount. Only
 display the additional minute and text message charges if the user incurred costs in
 these categories. Ensure that all of the charges are displayed using 2 decimal places.'''
+print('How much minutes have you used:')
+m = int(input())
+print('How many text messgaes have you sent:')
+t = int(input())
+if m == 50 and t == 50:
+    print('15 dollars a month')
+if m > 50:
+    print('How many extra minutes havge you used')
+    e = int(input())
+    print('The amopunt extra you have to pay is:' (e*0.25))
+if t > 50:
+    print('How many extra messages have you used')
+    u = int(input())
+    print('The amopunt extra you have to pay is:'(u*0.15))
+

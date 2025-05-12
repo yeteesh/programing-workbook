@@ -5,3 +5,18 @@ year. For example, June 10, 1960 is a magic date because June is the sixth month
 whether or not a date is a magic date. Use your function to create a main program
 that finds and displays all of the magic dates in the 20th century. You will probably
 find your solution to Exercise 106 helpful when completing this exercise.'''
+
+print("Eter the first number")
+a = int(input())
+print("Enter the second number")
+b = int(input())
+print("Enter the third number")
+c = int(input())
+print("ENter the fourth number")
+d = int(input())
+print("Enter the fifth number")
+e = int(input())
+numbers = [a,b,c,d,e]
+num = 0
+for numbers in num:
+   num += numbers 
